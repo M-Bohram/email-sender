@@ -16,7 +16,7 @@ for name, email in zip(names, emails):
     # setup the parameters of the message
     msg['From'] = configs['address']
     msg['To'] = email
-    msg['Subject'] = "This is TEST"
+    msg['Subject'] = configs['subject']
 
     # add in the message body
     msg.attach(MIMEText(content, 'plain'))

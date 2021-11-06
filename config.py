@@ -9,5 +9,6 @@ configs = {
     'host': os.environ.get('SMTP_HOST'),
     'port': os.environ.get('SMTP_PORT'),
     'contacts_file': 'contacts.txt',
-    'message_file': 'message.txt'
+    'message_file': 'message.txt',
+    'subject': 'Test Email'
 }
